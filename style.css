@@ -4,7 +4,7 @@ html, body {
   }
   
   body {
-      background: linear-gradient(-45deg, #ffffff , #0b49ce , #3c86e7, #000000);
+      background: linear-gradient(-45deg, #333 , #001e5e , #00459f, #000);
       background-size: 400% 400%;
       animation: gradient 35s ease infinite;
   }
@@ -41,11 +41,11 @@ html, body {
 
 .profilePicture, .profilePicture img {
     position: relative;
-    width: 100px;
+    /*width: 100px;*/
     height: 100px;
     display: block;
-    margin: 35px auto 20px;
-    border-radius: 0%;
+    margin: 35px auto;
+    /*border-radius: 0%;*/
 }
 
 .userName {
